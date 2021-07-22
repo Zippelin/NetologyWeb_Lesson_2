@@ -10,7 +10,7 @@
 > docker network create --driver bridge flask-network
 
 #### Монтируем образ Postgres
-> cd postres/
+> cd postgres/
 > docker build --tag=postres .
 
 #### Монтируем образ фласк
