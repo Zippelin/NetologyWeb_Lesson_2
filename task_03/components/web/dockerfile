@@ -1,0 +1,7 @@
+FROM python:3.8
+COPY ./app /app
+ENV name=DockerName
+ENV hostip=postgres
+RUN pip install -r /app/requirements
+WORKDIR /app
+CMD ["python", "/app/run.py"]
