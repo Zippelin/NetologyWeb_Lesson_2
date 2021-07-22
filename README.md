@@ -16,7 +16,7 @@
 #### Монтируем образ фласк
 > docker build --tag=flask-simple .
 
-#### Запускаем контейнер Postres (обязательно первым)
+#### Запускаем контейнер Postgres (обязательно первым)
 > docker run -dit --name postgres --network flask-network postgres
 
 #### Запускаем контейнер Flask
