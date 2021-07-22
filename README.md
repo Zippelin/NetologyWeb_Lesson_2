@@ -25,6 +25,7 @@ docker run --name flask-simple -p 80:5000 --network flask-network flask-simple
 
 Для форвардинга портов в Unix системе из bridge сети:
 > sysctl net.ipv4.conf.all.forwarding=1
+
 > sudo iptables -P FORWARD ACCEPT
 
 
