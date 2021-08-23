@@ -20,7 +20,7 @@
 > docker run -dit --name postgres --network flask-network postgres
 
 #### Запускаем контейнер Flask
-docker run --name flask-simple -p 80:5000 --network flask-network flask-simple
+> docker run --name flask-simple -p 80:5000 --network flask-network flask-simple
 
 
 Для форвардинга портов в Unix системе из bridge сети:
